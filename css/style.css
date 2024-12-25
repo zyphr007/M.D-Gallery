@@ -1,0 +1,502 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Anta", sans-serif;
+  font-style: normal;
+}
+
+.nav_bg {
+  background: transparent;
+  width: 100%;
+  height: auto;
+  position: absolute;
+  z-index: 2;
+}
+
+.crousel_banner {
+  position: relative;
+  z-index: 1;
+}
+
+.navbar-brand {
+  margin-left: 10px;
+  font-size: 30px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.navbar-collapse ul li a {
+  padding-right: 20px !important;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.back-to-top-arrow {
+  height: 40px;
+  width: 40px;
+  background-color: #e45441;
+  position: fixed;
+  bottom: 5px;
+  right: 10px;
+  z-index: 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.back-to-top-arrow a {
+  color: white;
+  font-size: 20px;
+}
+.back-to-top-arrow a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.c-item {
+  height: 100vh;
+}
+.c-text {
+  margin-top: 50px;
+}
+.c-text h1 {
+  font-family: "Anta", sans-serif;
+  color: white !important;
+  margin-top: 80px;
+  font-size: 50px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.c-text p {
+  font-size: 20px;
+  margin-top: 20px;
+  text-align: none;
+}
+@media screen and (max-width: 678px) {
+  .c-text {
+    margin-top: 100px;
+  }
+  .c-text h1 {
+    font-size: 30px;
+  }
+  .c-text p {
+    font-size: 15px;
+  }
+}
+.c-image {
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.5);
+}
+
+.c-btn {
+  background-color: white;
+  color: rgb(0, 0, 0);
+  border-radius: 5px;
+  margin-top: 20px;
+  border: 1px solid white;
+  transition: all 0.2s;
+  padding: 10px 30px;
+  font-size: 20px;
+}
+@media screen and (max-width: 678px) {
+  .c-btn {
+    font-size: 10px;
+  }
+}
+
+.c-btn:hover {
+  background-color: transparent;
+  color: white;
+  text-decoration: none;
+}
+.about-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about-card {
+  border: none;
+}
+.about-card h2 {
+  font-family: "Anta", sans-serif;
+}
+
+.about-btn {
+  background-color: #3a3f58;
+  color: #fff;
+  border-radius: 0px;
+  border: 1px solid #3a3f58;
+  transition: all 0.2s;
+}
+
+.about-btn:hover {
+  text-decoration: none !important;
+  background: transparent;
+  color: black;
+}
+
+.g-background {
+  background-color: #f9f8f7;
+  height: 100px;
+  text-align: center;
+}
+
+.g-heading {
+  width: auto;
+}
+.g-heading h1 {
+  font-family: "Anta", sans-serif;
+}
+
+.overlay-icon {
+  position: relative;
+}
+
+.gallery-images {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.3s ease;
+  background-color: #3a3f58;
+}
+
+.overlay-icon:hover .overlay {
+  opacity: 0.5;
+}
+
+.gallery-img-icon {
+  font-size: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+}
+
+.gallery-img-icon:hover {
+  color: white;
+}
+
+.s-background {
+  background-color: #f9f8f7;
+  height: 100px;
+  text-align: center;
+}
+
+.s-heading {
+  width: auto;
+}
+.s-heading h1 {
+  font-family: "Anta", sans-serif;
+}
+.service-card {
+  background-color: #3a3f58;
+}
+
+.service-image {
+  width: 145px;
+  height: 145px;
+  border-radius: 100%;
+  border: 5px solid #fff;
+  margin-top: -72px;
+}
+
+.service-body {
+  text-align: center;
+}
+
+.service-body h3 {
+  font-weight: 700;
+  color: white;
+  font-family: "Anta", sans-serif;
+}
+
+.service-body p {
+  color: #fff;
+}
+
+.service-btn {
+  padding: 10px 50px;
+  border: 1px solid black;
+  background-color: #e45441;
+  color: white;
+  transition: all 0.2s;
+}
+
+.service-btn:hover {
+  text-decoration: none;
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+.b-background {
+  background-color: #f9f8f7;
+  height: 100px;
+  text-align: center;
+}
+
+.b-heading {
+  width: auto;
+}
+.b-heading h1 {
+  font-family: "Anta", sans-serif;
+}
+.blog-body h3 {
+  font-weight: 700;
+  font-family: "Anta", sans-serif;
+}
+
+.blog-btn {
+  background-color: #3a3f58;
+  color: #fff;
+  border-radius: 0px;
+  border: 1px solid #3a3f58;
+  transition: all 0.2s;
+}
+
+.blog-btn:hover {
+  text-decoration: none;
+  background: transparent;
+  color: black;
+}
+
+.blog-img {
+  height: 255px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.testimonial-carousel {
+  height: auto;
+  width: 1140px;
+  max-width: 80%;
+}
+
+.t-background {
+  background-color: #f9f8f7;
+  height: 100px;
+  text-align: center;
+}
+
+.t-heading {
+  width: auto;
+}
+.t-heading h1 {
+  font-family: "Anta", sans-serif;
+}
+.testimonial-card {
+  background-color: #3a3f58;
+  padding: 0 15px;
+  width: 45%;
+  height: auto;
+}
+@media screen and (max-width: 678px) {
+  .testimonial-card {
+    width: 100%;
+  }
+}
+.testimonial-image {
+  width: 145px;
+  height: 145px;
+  border-radius: 100%;
+  border: 7px solid #fff;
+  margin-top: -72px;
+  margin-left: 30px;
+}
+
+.testimonial-body h3 {
+  font-weight: 500;
+  color: #e45441;
+  margin-left: 8px;
+  margin-top: 10px;
+  font-family: "Anta", sans-serif;
+}
+
+.testimonial-body p {
+  color: #fff;
+  margin-left: 8px;
+  margin-top: -2px;
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.testimonial-carousel-prev,
+.testimonial-carousel-next {
+  background-color: #e45441;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  bottom: -70px;
+  top: auto;
+  opacity: 1;
+}
+
+.testimonial-carousel-prev:hover {
+  background-color: #3a3f58;
+  color: white;
+}
+
+.testimonial-carousel-next:hover {
+  background-color: #3a3f58;
+  color: white;
+}
+
+.testimonial-carousel-prev {
+  left: calc(50% - 50px);
+}
+
+.testimonial-carousel-next {
+  right: calc(50% - 50px - 20px);
+}
+
+.testimonial-c-item {
+  margin-top: 80px;
+}
+
+.f-background {
+  background-color: #3a3f58;
+  width: 85%;
+  height: auto;
+  padding: 50px;
+  border: 5px solid white;
+  margin-bottom: -90px;
+}
+
+.f-background h1 {
+  color: white;
+  font-size: 40px;
+  font-weight: 700;
+  font-family: "Anta", sans-serif;
+}
+
+.f-background input {
+  height: 50px;
+  border: 1px solid black;
+  margin-bottom: 25px;
+  padding-left: 15px;
+  color: black;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.05);
+  border-radius: 5px;
+}
+
+.f-background textarea {
+  margin-bottom: 25px;
+  padding-left: 15px;
+  color: black;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.05);
+}
+
+.f-background button {
+  border: 1px solid black;
+  padding: 12px 55px;
+  background-color: #e45441;
+  color: white;
+  transition: all 0.2s;
+}
+
+.f-background button:hover {
+  background-color: transparent;
+  color: #e45441;
+  border: 1px solid #e45441;
+  text-decoration: none;
+}
+.sub-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sub-card {
+  border: none;
+  height: auto;
+}
+.sub-body h3 {
+  font-weight: 700;
+  font-size: 30px;
+  margin-bottom: 15px;
+  font-family: "Anta", sans-serif;
+}
+.sub-body p {
+  margin-bottom: 15px;
+  font-weight: 300;
+}
+.sub-body input {
+  height: 50px;
+  background-color: #ccc;
+  color: white;
+  padding-left: 15px;
+  border: none;
+  margin-bottom: 15px;
+}
+.sub-btn {
+  background-color: #3a3f58;
+  color: white;
+  padding: 10px 40px;
+  border: 1px solid #3a3f58;
+  transition: all 0.2s;
+}
+.sub-btn:hover {
+  text-decoration: none;
+  background-color: transparent;
+  border: 1px solid black;
+}
+
+.footer_bg {
+  background-color: #3a3f58;
+  color: white;
+  width: 100%;
+  height: auto;
+  padding: 100px 50px 50px 50px;
+}
+
+.footer-card {
+  background-color: transparent;
+  border: none;
+}
+.footer-body {
+  margin-bottom: 25px;
+  padding: 0 15px;
+}
+.footer-body h3 {
+  color: white;
+  font-weight: 600;
+  font-family: "Anta", sans-serif;
+}
+.footer-icons {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.footer-icons a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border: 1px solid white;
+  color: white;
+}
+.footer-icons a:hover {
+  text-decoration: none;
+  border: 1px solid #e45441;
+  color: #e45441;
+}
+.copyright h5 {
+  font-family: "Anta", sans-serif;
+}
